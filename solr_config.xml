@@ -1,0 +1,7 @@
+# Place this file in your /etc/solr directory and specify the SOLR-core names.
+<?xml version="1.0" encoding="UTF-8" ?>
+<solr persistent="false">
+  <cores adminPath="/admin/cores">
+    <core name="example" instanceDir="example" />
+  </cores>
+</solr>
