@@ -1,4 +1,10 @@
-# Place this file in your /etc/solr directory and specify the SOLR-core names.
+<!--  
+      Place this file in your /etc/solr directory and specify the SOLR-core names.
+      Rename the file to solr.xml. 
+
+      The current SOLR distro might require you to change the version number.
+--!>
+
 <?xml version="1.0" encoding="UTF-8" ?>
 <solr persistent="false">
   <cores adminPath="/admin/cores">
